@@ -9,33 +9,36 @@ body{
 }
 .top{
 	color : white;
-	justify-content: space-around;
-    justify-content: flex-start;
     text-decoration: none;
 }
 
 .sis{
-	margin-top: 0px;
-	display: flex;
-	background-color: #333333; 
-	text-decoration: none;
-	font-size: 16px;
-
+       margin-top: 0px;
+    display: flex;
+    background-color: #333333;
+    text-decoration: none;
+    font-size: 16px;
+    flex-direction: row;
+    align-content: center;
+}
+.login{
+	float:right;
+	vertical-align: middle;
 }
 .top1{
-	color: white;
-	display: flex;
-	justify-content: flex-end;
-	border: none;
-	padding: 0px 0px 0px 32px;
-   text-align: left;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   padding-left: 1400px;
+	text-align: right;
 
+    color: white;
+    border: none;
+    padding: 0px 0px 0px 32px;
 
-		}
+    text-decoration: none;
+    font-size: 16px;
+
+    justify-content: flex-end;
+    align-items: flex-end;
+	}
+
 li{
 	padding: 20px;
 	list-style-type: none;
@@ -72,13 +75,14 @@ li{
 	position:relative;
 	top:1px;
 }
-.theplug{
-	display: flex;
-	flex-direction: column;
-	height: 50px;
-	width: 300px;
-	align-items: center;
-	margin-left: 30em;
+.theplug {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    margin-left: 0em;
+    align-items: center;
+    align-content: stretch;
+    flex-wrap: nowrap;
 }
 .bloc{
 	display: flex;
@@ -99,16 +103,22 @@ li{
 }
 
 .navi {
-	display: flex;
+    display: flex;
     color: white;
     background-color: #333333;
-
-
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
 }
+
 .boutonbas{
-	text-align: center;
-	height: 100px;
-	background-color: white;
+    display: flex;
+    text-align: center;
+    height: 11.4em;
+    width: 100%;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
 }
 .bouton{
 	text-align: center;
@@ -182,3 +192,4 @@ color: white;
 	text-align: left;
 	color: white;
 }
+test
