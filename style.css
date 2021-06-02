@@ -22,8 +22,15 @@ body{
     align-content: center;
 }
 .login{
-	float:right;
-	vertical-align: middle;
+    display: flex;
+    color: white;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+    align-items: center;
+    text-decoration: none;
+
 }
 .top1{
 	text-align: right;
@@ -192,4 +199,3 @@ color: white;
 	text-align: left;
 	color: white;
 }
-test
