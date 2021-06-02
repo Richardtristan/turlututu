@@ -1,39 +1,41 @@
 body{
 font-family: 'Roboto', sans-serif;
-background-color: DarkOrange;
+background-color: #1E93CC;
 margin: 0px;
-
-
 padding: 0px
 }
+.mini{
+height: 50px;
+}
 .top{
-	color : yellow;
+	color : white;
 			 justify-content: space-around;
 		 		 justify-content: flex-start;
+		 		   text-decoration: none;
 }
 
 .sis{
 	margin-top: 0px;
 		display: flex;
-	background-color: grey; 
-
+	background-color: #333333; 
+ 
   text-decoration: none;
 
   font-size: 16px;
 
 }
 .top1{
-	color: yellow;
+	color: white;
 			display: flex;
 					 justify-content: flex-end;
   border: none;
 
-  padding: 15px 32px;
+  padding: 0px 0px 0px 32px;
   text-align: left;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  padding-left: 900px;
+  padding-left: 1000px;
 
 
 		}
@@ -41,21 +43,12 @@ li{
 	padding: 20px;
 	list-style-type: none;
 }
-.pika{
- height: 200px;
-float: left;
-
-}
 
 .tete{
-margin-left: 5em;
-margin-top: 3em;
-margin-right: 25em;
-flex: 6;
+
+	text-align: center;
 }
-.tete2{
-clear: both;
-}
+
 .myButton {
 	box-shadow:inset 0px 0px 0px 0px #fff6af;
 	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
@@ -80,22 +73,65 @@ clear: both;
 	position:relative;
 	top:1px;
 }
-.bloc{
-	margin-left: 100px;
+.theplug{
+	display: flex;
+	flex-direction: column;
+	height: 50px;
+	width: 300px;
+	align-items: center;
+	margin-left: 30em;
 }
-.tete2{
-text-align: center;
-margin-top: 100px;
+.bloc{
+display: flex;
+	padding: 30px 0px 80px 80px;
+}
+.logo{
+
+}
+.bonhome{
+margin-left: 5em;
 }
 .parte{
+		margin: 0px;
 		text-align: center;
 	margin-top: 100px;
 margin-bottom: 100px;
 }
-footer{
-	text-align: center;
-	margin-top: 200px;
+
+.navi {
+display: flex;
+    color: white;
+    background-color: #333333;
+
+
 }
 .boutonbas{
 	text-align: center;
+	height: 100px;
+	background-color: white;
+}
+.bouton{
+	text-align: center;
+	margin: 0;
+
+}
+.blanc{
+	background-color: #EEEEEE;
+}
+.picto{
+background-color: white;
+padding-top: 20px;
+padding-bottom: 20px;
+text-align: center;
+}
+.deadlines{
+	background-color: white;
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+}
+.tete2{
+	display: flex;
+	text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
 }
