@@ -1,0 +1,101 @@
+body{
+font-family: 'Roboto', sans-serif;
+background-color: DarkOrange;
+margin: 0px;
+
+
+padding: 0px
+}
+.top{
+	color : yellow;
+			 justify-content: space-around;
+		 		 justify-content: flex-start;
+}
+
+.sis{
+	margin-top: 0px;
+		display: flex;
+	background-color: grey; 
+
+  text-decoration: none;
+
+  font-size: 16px;
+
+}
+.top1{
+	color: yellow;
+			display: flex;
+					 justify-content: flex-end;
+  border: none;
+
+  padding: 15px 32px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding-left: 900px;
+
+
+		}
+li{
+	padding: 20px;
+	list-style-type: none;
+}
+.pika{
+ height: 200px;
+float: left;
+
+}
+
+.tete{
+margin-left: 5em;
+margin-top: 3em;
+margin-right: 25em;
+flex: 6;
+}
+.tete2{
+clear: both;
+}
+.myButton {
+	box-shadow:inset 0px 0px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:2px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:14px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.bloc{
+	margin-left: 100px;
+}
+.tete2{
+text-align: center;
+margin-top: 100px;
+}
+.parte{
+		text-align: center;
+	margin-top: 100px;
+margin-bottom: 100px;
+}
+footer{
+	text-align: center;
+	margin-top: 200px;
+}
+.boutonbas{
+	text-align: center;
+}
