@@ -13,7 +13,3 @@ style.css
 ## Fabriqué avec
 
 git et vs code
-
-## License
-
-Ce projet est sous licence ``exemple: WTFTPL`` - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations
